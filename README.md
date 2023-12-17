@@ -7,17 +7,17 @@
                kubectl exec -it mongo-0 -- mongo 
 
 
-   rs.initiate(
-   {
-   id : "rs0",
-   members:[
-   { _id: 0, host: "mongo-0.mongo.default.svc.cluster.local:27017" },
-   { _id: 1, host: "mongo-1.mongo.default.svc.cluster.local:27017" },
-   { _id: 2, host: "mongo-2.mongo.default.svc.cluster.local:27017" },
+            rs.initiate(
+            {
+             id : "rs0",
+                  members:[
+                    { _id: 0, host: "mongo-0.mongo.default.svc.cluster.local:27017" },
+                    { _id: 1, host: "mongo-1.mongo.default.svc.cluster.local:27017" },
+                    { _id: 2, host: "mongo-2.mongo.default.svc.cluster.local:27017" },
 
 
    and on the secondary server mongo-1 and mongo-2
-   "kubectl exec -it mongo-1 -- mongo"
+        "kubectl exec -it mongo-1 -- mongo"
 
           rs.slaveOk()
    

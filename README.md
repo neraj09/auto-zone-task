@@ -3,9 +3,9 @@
    to enable replica on mongodb follow below steps
    login on mongodb-0 pod
    
-                "kubectl exec -it mongo-0 -- mongo"
 
-   and run following command 
+               kubectl exec -it mongo-0 -- mongo 
+
 
    rs.initiate(
    {

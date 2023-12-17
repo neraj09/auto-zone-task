@@ -27,5 +27,6 @@
    
 3. deployed one deployement set for simple note taking application name "knot"
 4. optionally deployed deployment set for mongo express for managing mongodb database.
+5. Pubsub directory contain the sample terraform code that uses "Count" loop to create N number of pubsub topic.
 
    

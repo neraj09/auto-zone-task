@@ -13,8 +13,9 @@
    { _id: 2, host: "mongo-2.mongo.default.svc.cluster.local:27017" },
 
    and on the secondary server mongo-1 and mongo-2
-   kubectl exec -it mongo-1 -- mongo
-   rs.slaveOk()
+   "kubectl exec -it mongo-1 -- mongo"
+
+          rs.slaveOk()
    
 
    

@@ -1,7 +1,6 @@
 # auto-zone-task
-1. Task 1 to deploy stateful applicaiton
-   a. mongodb stateful application with 3 replica set
-   b. sample knot app connecting to db
-   c. replication configured among the 3 replica set
-2. Task 2 terrafrom code to deploy pub/sub
+1. Deployed mangodb stateful set with readyness and liveness probe enabled
+2. deployed one deployement set for simple note taking application name "knot"
+3. optionally deployed deployment set for mongo express for managing mongodb database.
+
    

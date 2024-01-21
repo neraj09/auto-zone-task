@@ -9,7 +9,7 @@ spec:
       targetPort: 27017
   clusterIP: None
   selector:
-    app: mongo
+    app: mongodb
 
 ---
 apiVersion: v1

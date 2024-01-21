@@ -12,8 +12,8 @@ provider "google-beta" {
 
 
 resource "google_pubsub_topic" "example" {
-  count  = 10,000  
+  count  = 10 
   name         = "example-topic${count.index}"
   provider = google
-  kms_key_name = google_kms_crypto_key.crypto_key.id
+  kms_key_name = google_kms_crypto_key.crypto_key.id  
 }

@@ -28,7 +28,7 @@ spec:
         - name: knote
           image: learnk8s/knote-js:1.0.0
           ports:
-            - containerPort: 3000
+            - containerPort: 3002
           env:
             - name: MONGO_URL
               value: mongodb://mongo:27017/

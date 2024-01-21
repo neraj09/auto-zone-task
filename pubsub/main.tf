@@ -1,7 +1,7 @@
 provider "google" {
   project     = "my-project-id"
-  region      = "us-central1"
-  zone        = "us-central1-c"
+  region      = "europe-west2"
+  zone        = "europe-west2-b"
 }
 
 provider "google-beta" {

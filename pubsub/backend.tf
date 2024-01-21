@@ -1,6 +1,7 @@
 terraform {
  backend "gcs" {
-   bucket  = "BUCKET_NAME"
+   bucket  = "collibra-infra-dev-001"
    prefix  = "terraform/state"
+
  }
 }

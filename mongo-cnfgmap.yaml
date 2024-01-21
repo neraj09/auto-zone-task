@@ -5,7 +5,7 @@ metadata:
 immutable: false
 data:
   username: admin1
-  database_url: mongo
+  database_url: mongodb
   mongodb.conf: |
     storage:
       dbPath: /data/db
